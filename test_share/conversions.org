@@ -1,0 +1,38 @@
+
+converting ascii.txt or latin.txt to org works, but not if encoding is
+utf-8.
+
+latin is probably preferred.
+
+I need to check if I make changes to the text, can they be
+incorporated easily.
+
+second level headers don't convert back well/at all.
+
+maybe docx is the way.
+
+#+BEGIN_SRC sh :session b
+
+pandoc -s -s template_paper.txt -o template_paper_pandoc.org
+
+#+END_SRC
+
+#+RESULTS:
+
+#+BEGIN_SRC sh :session b
+
+pandoc -s -s template_paper_edited.txt -o template_paper_edited.org
+
+#+END_SRC
+
+#+RESULTS:
+
+
+
+#+BEGIN_SRC sh :session b
+
+pandoc -s -s --track-changes=accept tem_copy_edited.docx -o tem_copy_edited.org
+
+#+END_SRC
+
+#+RESULTS:

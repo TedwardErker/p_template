@@ -1,0 +1,63 @@
+#+BEGIN_EXAMPLE
+                            ________________
+
+                             TEMPLATE PAPER
+
+                             Tedward Erker
+                            ________________
+#+END_EXAMPLE
+
+Table of Contents \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Introduction Methods Results .. first sublevel .. second sublevel
+Discussion Conclusion
+
+--------------
+
+* Introduction
+  :PROPERTIES:
+  :CUSTOM_ID: introduction
+  :END:
+
+A bunch of text goes here. A bunch of text goes here. A bunch of text
+goes here. A bunch of text goes here. A bunch of text goes here. A bunch
+of text goes here. A bunch of text goes here.
+
+* Methods
+  :PROPERTIES:
+  :CUSTOM_ID: methods
+  :END:
+
+test citation [nelson\_etal\_2009]
+
+* Results
+  :PROPERTIES:
+  :CUSTOM_ID: results
+  :END:
+
+first sublevel _{_{_{_{_{_{~}}}}}}~
+
+What did you find? Something, anything?
+
+second sublevel _{_{_{_{_{_{_{~}}}}}}}
+
+much much much more interesting things.
+
+* Discussion
+  :PROPERTIES:
+  :CUSTOM_ID: discussion
+  :END:
+
+* Conclusion
+  :PROPERTIES:
+  :CUSTOM_ID: conclusion
+  :END:
+
+Bibliography ============= [nelson\_etal\_2009] Nelson, McRoberts,
+Holden, & Bauer, Effects of Satellite Image Spatial Aggregation and
+Resolution on Estimates of Forest Land Area, @@html:<i>@@{International
+Journal of Remote Sensing}@@html:</i>@@, @@html:<b>@@30(8)@@html:</b>@@,
+1913-1940 (2009). @@html:<a
+  href="http://dx.doi.org/10.1080/01431160802545631">@@link@@html:</a>@@.
+@@html:<a
+  href="http://dx.doi.org/10.1080/01431160802545631">@@doi@@html:</a>@@.

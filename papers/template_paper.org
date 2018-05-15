@@ -1,0 +1,143 @@
+#+TITLE:Template Paper
+#+AUTHOR: Tedward Erker
+#+email: erker@wisc.edu
+#+OPTIONS: toc:t num:nil date:t
+#+LATEX_HEADER: \usepackage[margin=0.5in]{geometry}
+#+LATEX_CLASS_OPTIONS: [12pt]
+#+LATEX_HEADER: \usepackage{natbib}
+-----
+* From "Ten simple rules for structuring papers" http://biorxiv.org/content/early/2016/12/17/088278
+Konrad Kording and Brett Mensh
+
+
+
+
+
+** Table 1: A summary of rules and their uses
+|     | Rule                                              | Sign it is violated                                                         |
+|-----+---------------------------------------------------+-----------------------------------------------------------------------------|
+|  1: | One big idea                                      | Readers cannot give one-sentence summary                                    |
+|  2: | Humans as audience                                | Readers do not ‘get’ the paper                                              |
+|  3: | Context, Contents, Conclusion                     | Readers ask why something matters or what it means                          |
+|  4: | Optimize logical flow                             | Readers stumble on a small section of the text                              |
+|  5: | Abstract: Compact summary of paper                | Readers cannot give the ‘elevator pitch’ of your work  after reading it     |
+|  6: | Introduction: Why the paper matters               | Readers show little interest in the paper                                   |
+|  7: | Results: Why the conclusion is justified          | Readers do not agree with your conclusion                                   |
+|  8: | Discussion: Preempt criticism, give future impact | Readers are left with unanswered criticisms/questions on their mind         |
+|  9: | Time allocation                                   | Readers find data clearer than the ultimate message                         |
+| 10: | Iterate the story                                 | The paper’s contribution is rejected by test readers, editors or reviewers. |
+
+** A summary of all the typical sturcyal elements: Modified Figure 1
+
+*** Abstract
+**** The one question is
+**** Here we do
+**** What we found
+**** How it matters
+*** Introduction                                                  :section:
+**** Big Problem in Science                                    :paragraph:
+***** Field domain                                      :intraparagraph:
+***** What field knows                                   :intraparagraph:
+***** Remaining gap                                :intraparagraph:
+**** Narrower problem within
+***** Field domain
+***** What field knows
+***** Remaining gap
+**** Yet narrower paper Gap
+***** Field domain
+***** What field knows
+***** Remaining gap
+**** Summary
+***** Our approach
+***** Our results
+*** Results
+**** Methods summary
+***** To answer our question
+***** General Questions
+**** Logic 1
+***** The current question
+***** How we asked it
+***** The answer
+**** Logic 2
+***** The current question
+***** How we asked it
+***** The answer
+**** Logic n
+***** The current question
+***** How we asked it
+***** The answer
+*** Figures tell whole story
+*** Discussion
+**** Results -> Conclusion
+***** We found
+***** We filled gap
+**** Limitations in filling gap
+***** limitation
+***** details
+***** how to interpret/fix
+**** Limits in generalization
+***** limitation
+***** details
+***** how to interpret/fix
+**** Contributions beyond
+***** strength
+***** what it is useful for
+***** the difference made
+**** Science is better now
+***** strength
+***** what it is useful for
+***** the difference made
+
+
+* COMMENT Organizing Thoughts
+* Introduction
+\pagebreak
+* Methods
+test citation cite:nelson_etal_2009
+* Results
+* Discussion
+* Conclusion
+
+bibliography:~/work/references.bib
+bibliographystyle:apa
+
+* COMMENT org ref debug
+
+** worked on sumac, but not on a...very curious.
+
+#+TITLE: org-ref debug
+
+org-ref: Version 1.0.0 (git-commit b94f812ad63cc3e3a12e2cd94aeba7bf959531c4)
+
+*** Variables
+1. org-ref-bibliography-notes: /Users/erker/org/notes.org (exists t)
+2. org-ref-default-bibliography: (/Users/erker/work/references.bib) (exists (t)) (listp t)
+3. org-ref-pdf-directory: /Users/erker/work/reference-papers/ (exists t)
+
+*** System
+system-type: System: darwin
+system-configuration: x86_64-apple-darwin13.4.0
+window system: Window system: ns
+Emacs: GNU Emacs 24.5.1 (x86_64-apple-darwin13.4.0, NS apple-appkit-1265.21)
+ of 2015-04-10 on builder10-9.porkrind.org
+org-version: 9.0.1
+
+*** about org-ref
+org-ref installed in /Users/erker/.emacs.d/src/org-ref/org-ref.el.
+
+**** Dependencies
+helm-bibtex /Users/erker/.emacs.d/elpa/helm-bibtex-20161126.205/helm-bibtex.elc
+
+*** org-ref-pdf (loaded: t)
+system pdftotext: /usr/local/bin/pdftotext
+You set pdftotext-executable to pdftotext (exists: /usr/local/bin/pdftotext)
+
+*** org-ref-url-utils (loaded: nil)
+
+*** export variables
+org-latex-pdf-process:
+("pdflatex -interaction nonstopmode -output-directory %o %f" "bibtex %b" "pdflatex -interaction nonstopmode -output-directory %o %f" "pdflatex -interaction nonstopmode -output-directory %o %f")
+
+*
+
+

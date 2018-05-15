@@ -1,0 +1,75 @@
+                            ________________
+
+                             TEMPLATE PAPER
+
+                             Tedward Erker
+                            ________________
+
+
+Table of Contents
+_________________
+
+1 Introduction
+2 Methods
+3 Results
+.. 3.1 first sublevel
+.. 3.2 second sublevel
+4 Discussion
+5 Conclusion
+
+
+##+OPTIONS: toc:t num:nil date:t
+------------------------------------------------------------------------
+
+
+1 Introduction
+==============
+
+  A bunch of text goes here. ext goes here. A
+  bunch of text goes here. A bunch of text goes here.
+
+
+Well let's say that someone wants to add a bunch of text here. Well let's say that someone wants to add a bunch of text here.Well let's say that someone wants to add a bunch of text here.Well let's say that someone wants to add a bunch of text here.
+
+
+
+
+2 Methods
+=========
+
+  test citation [nelson_etal_2009]
+
+
+3 Results
+=========
+
+3.1 first sublevel
+~~~~~~~~~~~~~~~~~~
+
+  What did you find?  Something, anything?
+
+
+
+
+4 Discussion
+============
+
+  Maybe I'll have an equation in the discussion
+  (\(1.96\sqrt{\frac{(.2)(.8)}{584}}\).  And then perhaps a superscript
+  like 5000 m^2, followed by the subscript O_2.
+
+add a sublevel
+~~~~~~~~~~~~~~~~~~~
+
+  much much much more interesting things.
+
+
+5 Conclusion
+============
+
+  Bibliography ============= [nelson_etal_2009] Nelson, McRoberts,
+  Holden, \& Bauer, Effects of Satellite Image Spatial Aggregation and
+  Resolution on Estimates of Forest Land Area, <i>{International Journal
+  of Remote Sensing}</i>, <b>30(8)</b>, 1913-1940 (2009). <a
+  href="http://dx.doi.org/10.1080/01431160802545631">link</a>. <a
+  href="http://dx.doi.org/10.1080/01431160802545631">doi</a>.

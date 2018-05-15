@@ -1,0 +1,126 @@
+#+TITLE:Template
+#+AUTHOR: Tedward Erker
+#+email: erker@wisc.edu
+#+PROPERTY: header-args:R :session *R* :cache no :results output :exports both :tangle yes
+#+LATEX_HEADER: \usepackage[margin=0.5in]{geometry}
+------------
+* load libraries
+#+BEGIN_SRC R :exports none :results none
+library(ascii)
+library(broom)
+library(plyr)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+options(asciiType = "org")
+org.ascii <- function(x) {
+  suppressWarnings(ascii(x))
+}
+#+END_SRC
+* Some messing around
+* more messing aroung
+#+begin_src R
+library(ggplot2)
+#+end_src
+
+#+RESULTS:
+
+#+begin_src R
+      df <- data.frame(level1 = rep(c("income","expense"),each = 4),
+                       level2 = c(rep(c("uw","mmsd"),each = 2), rep(c("coffee","icecream"), each = 2)),
+                       amt = c(1000,1000,2020,2500,30,40,50,80),
+                       month = rep(c(1,2),4))
+      df
+#+end_src
+
+#+RESULTS:
+:    level1   level2  amt month
+: 1  income       uw 1000     1
+: 2  income       uw 1000     2
+: 3  income     mmsd 2020     1
+: 4  income     mmsd 2500     2
+: 5 expense   coffee   30     1
+: 6 expense   coffee   40     2
+: 7 expense icecream   50     1
+: 8 expense icecream   80     2
+
+
+#+begin_src R :exports results :results graphics :file ../figs/box_test.png
+ggplot(data = df, aes(x = month, y = amt, fill = level2)) + geom_area()
+#+end_src
+
+#+RESULTS:
+[[file:../figs/box_test.png]]
+* testing clocking
+:LOGBOOK:
+CLOCK: [2017-08-16 Wed 22:17]--[2017-08-16 Wed 22:18] =>  0:01
+:END:
+
+** DONE task 1
+CLOSED: [2017-08-16 Wed 21:41]
+:LOGBOOK:
+CLOCK: [2017-08-16 Wed 21:39]--[2017-08-16 Wed 21:41] =>  0:02
+:END:
+** DONE task 2
+CLOSED: [2017-08-16 Wed 22:07]
+:LOGBOOK:
+CLOCK: [2017-08-16 Wed 22:18]
+CLOCK: [2017-08-16 Wed 22:02]--[2017-08-16 Wed 22:03] =>  0:01
+:END:
+** DONE task 3
+CLOSED: [2017-08-16 Wed 22:07]
+:LOGBOOK:
+CLOCK: [2017-08-16 Wed 22:18]--[2017-08-16 Wed 22:18] =>  0:00
+CLOCK: [2017-08-16 Wed 22:03]--[2017-08-16 Wed 22:07] =>  0:04
+:END:
+
+** 0:00:32
+
+- 0:01:06 ::
+- 0:01:07 ::
+- 0:01:07 ::
+- 0:01:08 ::
+- 0:01:09 ::
+- 0:01:09 ::
+- 0:01:10 ::
+- 0:01:10 ::
+- 0:01:11 ::
+** NEXT next task
+:PROPERTIES:
+:Effort:   4
+:END:
+:LOGBOOK:
+CLOCK: [2017-08-16 Wed 22:07]--[2017-08-16 Wed 22:17] =>  0:10
+:END:
+
+**
+**
+** following task
+:PROPERTIES:
+:Effort:   3
+:END:
+*
+
+#+BEGIN: clocktable :maxlevel 2 :scope file
+#+CAPTION: Clock summary at [2017-08-16 Wed 22:07]
+| Headline         | Time   |      |
+|------------------+--------+------|
+| *Total time*     | *0:07* |      |
+|------------------+--------+------|
+| testing clocking | 0:07   |      |
+| \_  task 1       |        | 0:02 |
+| \_  task 2       |        | 0:01 |
+| \_  task 3       |        | 0:04 |
+#+END:
+* testing
+#+begin_src R
+x <- rnorm(1000)
+#+end_src
+
+#+RESULTS:
+
+#+begin_src R
+#plot(x)
+#+end_src
+
+#+RESULTS:
