@@ -1,0 +1,29 @@
+#+TITLE:Test making webpage with video
+#+AUTHOR: Tedward Erker
+#+email: erker@wisc.edu
+#+PROPERTY: header-args:R :session *R* :cache no :results output :exports both :tangle yes
+------------
+
+#+ATTR_HTML: :controls controls :width 350 :height 200
+#+BEGIN_video
+#+HTML: <source src="../Clip56.m4v">
+Your browser does not support the video tag.
+#+END_video
+
+#+ATTR_HTML: :width 350 :height 350
+#+HTML: <embed src="../Clip56.m4v">
+
+
+#+HTML: <video width="320" height="240" controls>
+#+HTML:   <source src="../Clip56.m4v">
+#+HTML: Your browser does not support the video tag.
+#+HTML: </video>
+
+
+#+ATTR_HTML: :width 600 :height 400 :scale aspect :controller true
+[[file:../Clip56.m4v]]
+
+
+
+[[file:../Desktop/Screen Shot 2016-05-30 at 10.47.14 AM.png]]
+
