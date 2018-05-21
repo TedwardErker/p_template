@@ -103,6 +103,6 @@ test citation cite:nelson_etal_2009
 * Discussion
 * Conclusion
 bibliography:~/git/notes/references.bib
-bibliographystyle:plain
+bibliographystyle:apa
 
 
