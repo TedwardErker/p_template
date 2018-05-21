@@ -6,7 +6,7 @@
 #+LATEX_CLASS_OPTIONS: [12pt]
 #+LATEX_HEADER: \usepackage{natbib}
 -----
-* From "Ten simple rules for structuring papers" http://biorxiv.org/content/early/2016/12/17/088278
+* COMMENT From "Ten simple rules for structuring papers" http://biorxiv.org/content/early/2016/12/17/088278
 Konrad Kording and Brett Mensh
 
 
@@ -88,9 +88,9 @@ Konrad Kording and Brett Mensh
 ***** what it is useful for
 ***** the difference made
 
-
 * COMMENT Organizing Thoughts
 * Introduction
+
 \pagebreak
 * Methods
 test citation cite:nelson_etal_2009
@@ -98,7 +98,7 @@ test citation cite:nelson_etal_2009
 * Discussion
 * Conclusion
 
-bibliography:~/work/references.bib
+bibliography:~/git/notes/references.bib
 bibliographystyle:apa
 
 * COMMENT org ref debug
