@@ -5,6 +5,7 @@
 #+LATEX_HEADER: \usepackage[margin=0.5in]{geometry}
 #+LATEX_CLASS_OPTIONS: [12pt]
 #+LATEX_HEADER: \usepackage{natbib}
+#+Bibliography: ~/git/notes/references.bib
 -----
 * COMMENT From "Ten simple rules for structuring papers" http://biorxiv.org/content/early/2016/12/17/088278
 Konrad Kording and Brett Mensh
@@ -97,47 +98,7 @@ test citation cite:nelson_etal_2009
 * Results
 * Discussion
 * Conclusion
-
 bibliography:~/git/notes/references.bib
 bibliographystyle:apa
-
-* COMMENT org ref debug
-
-** worked on sumac, but not on a...very curious.
-
-#+TITLE: org-ref debug
-
-org-ref: Version 1.0.0 (git-commit b94f812ad63cc3e3a12e2cd94aeba7bf959531c4)
-
-*** Variables
-1. org-ref-bibliography-notes: /Users/erker/org/notes.org (exists t)
-2. org-ref-default-bibliography: (/Users/erker/work/references.bib) (exists (t)) (listp t)
-3. org-ref-pdf-directory: /Users/erker/work/reference-papers/ (exists t)
-
-*** System
-system-type: System: darwin
-system-configuration: x86_64-apple-darwin13.4.0
-window system: Window system: ns
-Emacs: GNU Emacs 24.5.1 (x86_64-apple-darwin13.4.0, NS apple-appkit-1265.21)
- of 2015-04-10 on builder10-9.porkrind.org
-org-version: 9.0.1
-
-*** about org-ref
-org-ref installed in /Users/erker/.emacs.d/src/org-ref/org-ref.el.
-
-**** Dependencies
-helm-bibtex /Users/erker/.emacs.d/elpa/helm-bibtex-20161126.205/helm-bibtex.elc
-
-*** org-ref-pdf (loaded: t)
-system pdftotext: /usr/local/bin/pdftotext
-You set pdftotext-executable to pdftotext (exists: /usr/local/bin/pdftotext)
-
-*** org-ref-url-utils (loaded: nil)
-
-*** export variables
-org-latex-pdf-process:
-("pdflatex -interaction nonstopmode -output-directory %o %f" "bibtex %b" "pdflatex -interaction nonstopmode -output-directory %o %f" "pdflatex -interaction nonstopmode -output-directory %o %f")
-
-*
 
 
