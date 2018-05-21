@@ -91,6 +91,10 @@ Konrad Kording and Brett Mensh
 
 * COMMENT Organizing Thoughts
 * Introduction
+cite:marsh_1864
+
+cite:marsh_1898
+
 
 \pagebreak
 * Methods
@@ -99,6 +103,6 @@ test citation cite:nelson_etal_2009
 * Discussion
 * Conclusion
 bibliography:~/git/notes/references.bib
-bibliographystyle:apa
+bibliographystyle:plain
 
 
