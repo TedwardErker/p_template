@@ -91,6 +91,8 @@ Konrad Kording and Brett Mensh
 
 * COMMENT Organizing Thoughts
 * Introduction
+ \setrunninglinenumbers \modulolinenumbers[10] \linenumbers
+
 cite:marsh_1864
 
 cite:marsh_1898
