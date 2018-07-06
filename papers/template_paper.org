@@ -10,10 +10,6 @@
 * COMMENT From "Ten simple rules for structuring papers" http://biorxiv.org/content/early/2016/12/17/088278
 Konrad Kording and Brett Mensh
 
-
-
-
-
 ** Table 1: A summary of rules and their uses
 |     | Rule                                              | Sign it is violated                                                         |
 |-----+---------------------------------------------------+-----------------------------------------------------------------------------|
